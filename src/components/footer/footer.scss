@@ -1,0 +1,20 @@
+.footer .nav__items li{
+    .nav__item{
+        color:black;
+        font-size: 12px;
+        line-height: 17px;
+        
+    }
+    &:first-child:before{
+        background-image: url('../../images/CoffeWhite1.svg');
+    }
+}
+.footer ul.nav__items{
+    margin-left: 60px;
+    justify-content: center;
+}
+
+.footer__inner{
+    max-width: 800px;
+    margin: 0 auto 30px;
+}

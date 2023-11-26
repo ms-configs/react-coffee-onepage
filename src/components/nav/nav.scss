@@ -1,0 +1,44 @@
+ul.nav__items{
+    display: flex;
+    justify-content: left;
+    margin-left: 180px;
+    list-style: none;
+    li{
+        display: inline-block;
+        margin-top: 50px;
+        margin-right: 40px;
+        position: relative;
+        transition: all 1s ease-out;
+    }
+    li:after{
+        content: '';
+        display: block;
+        height: 2px;
+        width: 0%;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        background-color: rgb(211, 211, 78);
+        border-radius:2px;
+        transition: all .5s ease-out;
+    }
+    li:hover:after{
+        width: 100%;
+    }
+
+    li:first-child:before{
+        content: '';
+        position: absolute;
+        top:-25px;
+        left:-30px;
+        width:35px;
+        height:35px;
+        background-image: url('../../images/CoffeWhite.svg');
+        color:white;
+    }
+}
+
+.nav__item{
+    text-decoration: none;
+    color: white;
+}

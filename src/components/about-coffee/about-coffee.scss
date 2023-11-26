@@ -1,0 +1,33 @@
+hr{
+    width:240px;
+    height:1px;
+    margin:57px auto 0;
+}
+.section{
+    display: flex;
+    justify-content:center;
+    margin-top: 70px;
+    p:first-child{
+        margin-bottom: 20px;
+    }
+    img{
+        filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+    }
+    &__about{
+        margin-top: 9px;
+        width:346px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400px;
+        line-height: 20px;
+        margin-left: 80px;
+        h2{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 35px;
+            margin-bottom: 20px;
+        }
+    }
+    
+
+}

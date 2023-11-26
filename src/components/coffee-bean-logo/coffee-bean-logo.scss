@@ -1,0 +1,25 @@
+.section__beans_logo{
+    background-image: url('../../images/CoffeeBlack.svg');
+    width: 30px;
+    height: 29px;
+    margin: 0 auto 26px;
+    position: relative;
+    &::after{
+        content:'';
+        width:60px;
+        height:1px;
+        border-bottom: 1px solid black;
+        position: absolute;
+        top:15px;
+        left: 55px;
+    }
+    &::before{
+        content: '';
+        height:1px;
+        width: 60px;
+        border-top: 1px solid black;
+        position: absolute;
+        top:15px;
+        left:-85px;
+    }
+}
